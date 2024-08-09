@@ -3,6 +3,18 @@ body{
     margin: 0; 
     padding: 0;
     background-color: white;
-    
 
+
+}
+header{
+    background-color: white;
+    color: #000; /* PRETO */
+    padding: 10px 20px; /* cobrir toda a largura da pagina */
+    width: 100% /* cobrir toda a largura a da pagina */
+    box-sizing: border-box; /* inclui padding na largura total */
+    position: fixed; /* fica fixo no topo da pagina */
+    top: 0; /* posiciona no topo */
+    left: 0; /* alinha a esquerda */
+    display: flex; /* alinha itens horizontalmente */
+    align-items: center; /* alinha verticalmente no centro */ 
 }
